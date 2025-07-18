@@ -14,10 +14,13 @@
 }
 
 /* Custom made propertys and tags */
-.d-flex{
+.flex{
     display: flex;
 }
-.d_flex_center{
+.f-col{
+    flex-direction: column;
+}
+.flexc{
 display: flex;
 align-items: center;
 justify-content: center;
@@ -116,8 +119,43 @@ nav{
     width: 100%;
     padding: 0 61px;
     margin:  87px 0 130px 0;
-    .imgs{
-        display: flex;
-        flex-wrap: wrap;
+    gap: 73px;
+    .imges{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 20px;
+        
     }
+.text{
+    gap: 32px;
+    h1{
+        font-size: 45px;
+        font-weight: lighter;
+        b{
+            font-size: 45px;
+        }
+        span{
+            font-size: 45px;
+            font-weight: bold;
+            color: var(--buttonColor);
+        }
+    }
+    p{
+        line-height: 26px;
+        color: #727272;
+    }
+    button{
+        height: 64px;
+        width: 140px;
+        background-color: var(--buttonColor);
+        border: none;
+        border-radius: 8px;
+        color: white;
+    }
+}
  }
+
+
+.experience{
+    
+} 
