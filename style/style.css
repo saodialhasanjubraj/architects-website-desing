@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Work Sans;
+}
+
+:root{
+--buttonColor:#FF900E;
+}
+
+/* Custom made propertys and tags */
+.d-flex{
+    display: flex;
+}
+.d_flex_center{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+/* Code start from here */
+header{
+    width: 100%;
+    background-color:rgba(210, 114, 14, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ .headerContainer{
+    width: 1440px;
+   max-width: 1440px;
+   margin: auto;
+   padding: 50px 0 45px 0;
+   height: 1322px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 477px;
+        list-style: none;
+        li{
+            a{
+                text-decoration: none;
+                font-size: 18px;
+                color: black;
+            }
+            a:hover{
+                cursor: pointer;                
+            }
+           
+        }
+    }
+    /* nav End */}
+    .brandsNameInfo{
+        margin-top: 103px;
+        width: 862px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 32px;
+        h1{
+            font-size: 64px;
+            font-weight: bold;
+            text-align: center;
+        }
+        p{
+            line-height: 26px;
+            text-align: center;
+        }
+        button{
+            background-color: var(--buttonColor);
+            height: 64px;
+            width: 180px;
+            border: none;
+            border-radius: 8px;
+            color: white;            
+        }
+        button:hover{
+            cursor: pointer;
+            color: black;
+            background-color: transparent;
+            border: 1px solid var(--buttonColor);
+            transition: 0.6s;
+        }
+    }
+    .heroImage{
+        height: 700px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    /* headerContainer End */ }
+   
+ /* header End */}
+
+ /* main Star From here==>> */
+
+ .quickListOfOurFeatures{
+    width: 100%;
+    padding: 0 61px;
+    margin:  87px 0 130px 0;
+    .imgs{
+        display: flex;
+        flex-wrap: wrap;
+    }
+ }
