@@ -114,12 +114,16 @@ nav{
  /* header End */}
 
  /* main Star From here==>> */
-
+main{
+    max-width: 1400px;
+    margin: auto;
+}
  .quickListOfOurFeatures{
     width: 100%;
     padding: 0 61px;
     margin:  87px 0 130px 0;
     gap: 73px;
+    margin: auto;
     .imges{
        display: grid;
        grid-template-columns: repeat(2, 1fr);
@@ -127,6 +131,7 @@ nav{
         
     }
 .text{
+    width: 537px;
     gap: 32px;
     h1{
         font-size: 45px;
@@ -156,6 +161,10 @@ nav{
  }
 
 
+
+/* *************************************** */
+
+
 .experience{
-    
+
 } 
