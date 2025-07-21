@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,162 +8,256 @@
     font-family: Work Sans;
 }
 
-:root{
---buttonColor:#FF900E;
+:root {
+    --buttonColor: #FF900E;
 }
 
 /* Custom made propertys and tags */
-.flex{
+.flex {
     display: flex;
 }
-.f-col{
+
+.f-col {
     flex-direction: column;
 }
-.flexc{
-display: flex;
-align-items: center;
-justify-content: center;
+
+.flexc {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
 
 
 /* Code start from here */
-header{
+header {
     width: 100%;
-    background-color:rgba(210, 114, 14, 0.1);
+    background-color: rgba(210, 114, 14, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
- .headerContainer{
-    width: 1440px;
-   max-width: 1440px;
-   margin: auto;
-   padding: 50px 0 45px 0;
-   height: 1322px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   
-nav{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    h1{
-        font-size: 45px;
-        font-weight: bold;
-    }
-    ul{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 477px;
-        list-style: none;
-        li{
-            a{
-                text-decoration: none;
-                font-size: 18px;
-                color: black;
-            }
-            a:hover{
-                cursor: pointer;                
-            }
-           
-        }
-    }
-    /* nav End */}
-    .brandsNameInfo{
-        margin-top: 103px;
-        width: 862px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 32px;
-        h1{
-            font-size: 64px;
-            font-weight: bold;
-            text-align: center;
-        }
-        p{
-            line-height: 26px;
-            text-align: center;
-        }
-        button{
-            background-color: var(--buttonColor);
-            height: 64px;
-            width: 180px;
-            border: none;
-            border-radius: 8px;
-            color: white;            
-        }
-        button:hover{
-            cursor: pointer;
-            color: black;
-            background-color: transparent;
-            border: 1px solid var(--buttonColor);
-            transition: 0.6s;
-        }
-    }
-    .heroImage{
-        height: 700px;
-        width: 100%;
-        margin-top: 50px;
-    }
-    /* headerContainer End */ }
-   
- /* header End */}
 
- /* main Star From here==>> */
-main{
+    .headerContainer {
+        width: 1440px;
+        max-width: 1440px;
+        margin: auto;
+        padding: 50px 0 45px 0;
+        height: 1322px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h1 {
+                font-size: 45px;
+                font-weight: bold;
+            }
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 477px;
+                list-style: none;
+
+                li {
+                    a {
+                        text-decoration: none;
+                        font-size: 18px;
+                        color: black;
+                    }
+
+                    a:hover {
+                        cursor: pointer;
+                    }
+
+                }
+            }
+
+            /* nav End */
+        }
+
+        .brandsNameInfo {
+            margin-top: 103px;
+            width: 862px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 32px;
+
+            h1 {
+                font-size: 64px;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            p {
+                line-height: 26px;
+                text-align: center;
+            }
+
+            button {
+                background-color: var(--buttonColor);
+                height: 64px;
+                width: 180px;
+                border: none;
+                border-radius: 8px;
+                color: white;
+            }
+
+            button:hover {
+                cursor: pointer;
+                color: black;
+                background-color: transparent;
+                border: 1px solid var(--buttonColor);
+                transition: 0.6s;
+            }
+        }
+
+        .heroImage {
+            height: 700px;
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        /* headerContainer End */
+    }
+
+    /* header End */
+}
+
+/* main Star From here==>> */
+main {
     max-width: 1400px;
     margin: auto;
 }
- .quickListOfOurFeatures{
+
+.quickListOfOurFeatures {
     width: 100%;
     padding: 0 61px;
-    margin:  87px 0 130px 0;
+    margin: 87px 0 130px 0;
     gap: 73px;
     margin: auto;
-    .imges{
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-       gap: 20px;
-        
+
+    .imges {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
     }
-.text{
-    width: 537px;
-    gap: 32px;
-    h1{
-        font-size: 45px;
-        font-weight: lighter;
-        b{
+
+    .text {
+        width: 537px;
+        gap: 32px;
+
+        h1 {
             font-size: 45px;
+            font-weight: lighter;
+
+            b {
+                font-size: 45px;
+            }
+
+            span {
+                font-size: 45px;
+                font-weight: bold;
+                color: var(--buttonColor);
+            }
         }
-        span{
-            font-size: 45px;
-            font-weight: bold;
-            color: var(--buttonColor);
+
+        p {
+            line-height: 26px;
+            color: #727272;
         }
-    }
-    p{
-        line-height: 26px;
-        color: #727272;
-    }
-    button{
-        height: 64px;
-        width: 140px;
-        background-color: var(--buttonColor);
-        border: none;
-        border-radius: 8px;
-        color: white;
+
+        button {
+            height: 64px;
+            width: 140px;
+            background-color: var(--buttonColor);
+            border: none;
+            border-radius: 8px;
+            color: white;
+        }
     }
 }
- }
 
 
 
 /* *************************************** */
 
 
-.experience{
+.experience {
+    margin-top: 130px;
+    gap: 45px;
 
-} 
+    .experienceText {
+        h1 {
+            font-size: 45px;
+            font-weight: bold;
+        }
+    }
+
+    p {
+        line-height: 26px;
+        text-align: justify;
+    }
+
+    .experienceCards{
+margin-top: 30px;
+gap: 20px;
+    }
+    .experienceCard {
+       height: 171px;
+       width: 586px;
+       text-align:start;
+        h1 {
+            font-size: 20px;
+            font-weight:700;
+        }
+
+        p {
+            line-height: 26px;
+            text-align: justify;
+        }
+    }
+
+    .experience_Image_part {
+        height: 1069px;
+        width: 800px;
+.experienceImage{
+    margin-bottom: -100px;
+    z-index: 16;
+}
+
+        .experienceButton {
+            height: 200px;
+            width: 342px;
+            border: none;
+            border-radius: 8px;
+            background-color: var(--buttonColor);
+            z-index: 6;
+
+            h1 {
+             
+                font-size: 65px;
+                font-weight: bold;
+                color: white;
+
+
+
+
+                span {
+                    font-size: 25px;
+                    font-weight: lighter;
+                    color: white;
+
+                }
+            }
+        }
+    }
+
+}
